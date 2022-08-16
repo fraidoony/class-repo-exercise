@@ -1,0 +1,95 @@
+Notes 
+WEEK 2
+----------------------------------------------------------------------------------
+
+
+Hypertext Markup language - Hypertext is text which contains links to another page
+Markup is tags and elements used within a document
+
+Opening Tag <p>
+Closing tag </p>
+<br> is a self closing tag
+
+W3C consortium - (workd wide web) maintains the HTML standard
+ALT text or image description is displayed nowhere in the webpage - but it is used by search engine etc which might improve the ranking of our website
+
+
+HTML FORMS
+<form action="/registration" method="POST"> </form>
+action tells us the path to which the form should be submitted to 
+when no action is specified - request is submitted to the same webpage
+
+Inputs : 
+<form action = '/registration' method="POST">
+    <label for="username">Username:</label><br>
+    <input type = "text" name = "username">
+
+    <label for="password"> Password:</label><br>
+    <input type = "password" />
+
+    <input type="submit"/>
+</form>
+
+There are checkboxes and radio buttons, number, email, file upload, multiline text field also
+Multiline text and dropdown don't use input tags
+
+DOM - DOCUMENT OBJECT MODEL
+To make websites interactive, we need DOM - to add comments, like stuff etc
+When browser received a html page, it constructs a DOM 
+It's a tree structure
+One object represents one html element
+We can use Javascript to access and modify the DOM 
+Using many <br> tags or not putting content in appropriate tags can reduce web acessibility
+
+
+CSS 
+Selector 
+
+Following h1 selector tells us to put all h1 headings in grey. h1 is selector, Color is the property and grey is the value.
+h1{
+    color : grey;
+    background-color : black;
+}
+
+
+TYPES OF SELECTORS
+
+Element Selector - select HTML elements based on their element type 
+
+ID selector - id attribute of an HTML element - We use # character for ID 
+For example, 
+<span id = "latest">New!</span>
+#latest{
+    background-color: purple;
+}
+
+Class Selector - uses dot operator
+HTML
+​<a class="navigation">Go Back</a>
+​<p class="navigation">Go Forward</p>
+
+CSS
+.navigation { 
+    margin: 2px;
+  }​​
+
+Element + Class
+The example below selects all p elements that have the CSS class introduction applied to them.
+<p class="introduction"></a> -- HTML
+CSS
+p.introduction { 
+    margin: 2px;
+    }​​
+
+Multiple selectors can be selected - separate all by space - for example - select all h1
+elements that are contained within the element with the ID blog - #blog h1 {}
+
+
+Child selectors
+Only select elements that are immediate descendants of selectors 
+
+
+COLOURS
+RGBA - A alpha channel for opacity, transparency of the color
+HSL - hue, saturation, lightness
+Hex - rgb 255 0 0 is ff000 in hex

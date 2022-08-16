@@ -1,0 +1,28 @@
+Package manager is a tool that installs all dependencies/packages
+Node Package manager (NPM) is the most common 
+
+Bundling tool - eg Gulp Webpack - combine all dependencies into one single file
+
+Responsive Design 
+Flexible grids - columns, gutters (space between columns) and margins - defined in percentages so that they can adjust acc to screen size
+Fluid Images - setting max_width to 100% ensures that if the column becomes smaller - image becomes smaller - but never larger
+Media Queries - display size, orientation, aspect ratio
+
+Pixel value specified is the breakpoint. 
+
+Three different grids 
+Fixed grid - fixed width columns and flexible margins. So a fixed grid has a fixed content width that doesn't change in a specific breakpoint range.
+Fluid grid - flexible content, fixed gutters and margins
+Hybrid - fluid width and fixed width content
+
+Bootstrap - prewritten chunks of code in css and js
+
+Breakpoint :
+Extra small (default)
+small(sm) >=576px
+Medium (md) >=768px
+Large (lg) >= 992px
+Extra large(xl)
+Extra extra large(xxl)
+
+Modifier : alert-primary success info danger etc 
